@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "20.x"
+    "node": "v22.1.0"
   },
   "dependencies": {
     "axios": "^0.24.0",
