@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 import cv2
 from flask import send_file
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="../build", static_url_path="/")
 CORS(app)  # Allow all origins for simplicity
 print('app_started')
 
