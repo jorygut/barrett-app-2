@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": "22.1.0"
+    "node": "22.1.0",
+    "npm": "10.7.0"
   },
   "dependencies": {
     "axios": "^0.24.0",
